@@ -1,0 +1,1 @@
+import"./chunk-4CLCTAJ7.js";var t=[{path:"",loadComponent:()=>import("./chunk-BFQXQ5SL.js").then(a=>a.MainInternalComponent),children:[{path:"dashboard",loadChildren:()=>import("./chunk-5JZ5VUYD.js").then(a=>a.default),data:{breadcrumbs:[{label:"Dashboard",url:"/dashboard"}]}},{path:"",redirectTo:"dashboard/overview",pathMatch:"full"}]}];export{t as default};

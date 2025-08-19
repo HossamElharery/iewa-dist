@@ -1,0 +1,360 @@
+{
+  "AUTH": {
+    "SIGN_IN": {
+      "TITLE": "Sign In",
+      "SIGN_UP_NOW": "Register Now",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "Enter your email or user name",
+      "EMAIL_REQUIRED": "Email required",
+      "EMAIL_INVALID": "Email Wrong",
+      "PASSWORD_LABEL": "Password",
+      "PASSWORD_PLACEHOLDER": "Password",
+      "PASSWORD_REQUIRED": "Password required",
+      "FORGOT_PASSWORD": "Forgot your password?",
+      "SUBMIT": "Sign in",
+      "YOU_DONT_HAVE_ACCOUNT!": "You Don't Have Account!"
+    },
+    "RESET_PASSWORD": {
+      "TITLE": "Set a new password",
+      "PASSWORD_LABEL": "Password",
+      "PASSWORD_PLACEHOLDER": "Enter your new password",
+      "PASSWORD_PATTERN": "Password must be like {{example}}",
+      "PASSWORD_REQUIRED": "Password required",
+      "CONFIRM_PASSWORD_LABEL": "Confirm password",
+      "CONFIRM_PASSWORD_PLACEHOLDER": "Re enter your new password",
+      "PASSWORD_MISMATCH": "Password not match",
+      "CONFIRM_PASSWORD_REQUIRED": "Password required",
+      "SUBMIT": "Update Password"
+    },
+    "FORGET_PASSWORD": {
+      "TITLE": "Password Reset",
+      "SUBTITLE": "Please enter your email to reset the password",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "Enter your Email Address",
+      "EMAIL_REQUIRED": "Email is required",
+      "SUBMIT": "Reset Password"
+    },
+    "VERIFICATION": {
+      "EMAIL_ICON_ALT": "Email verification icon",
+      "TITLE": "Check your email",
+      "INSTRUCTION": "We sent a verification link to",
+      "CODE_INSTRUCTION": "Enter 5 digit code that mentioned in the email",
+      "VERIFY_BUTTON": "Verify",
+      "NO_EMAIL_TEXT": "Haven't got the email yet?",
+      "RESEND_LINK": "Resend email"
+    },
+    "SIGN_UP": {
+      "TITLE": "Sign Up",
+      "FIRST_NAME_LABEL": "First Name",
+      "FIRST_NAME_PLACEHOLDER": "Enter your first name",
+      "FIRST_NAME_REQUIRED": "First name is required",
+      "LAST_NAME_LABEL": "Last Name",
+      "LAST_NAME_PLACEHOLDER": "Enter your last name",
+      "LAST_NAME_REQUIRED": "Last name is required",
+      "EMAIL_LABEL": "Email",
+      "EMAIL_PLACEHOLDER": "Enter your email",
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Please enter a valid email",
+      "PASSWORD_LABEL": "Password",
+      "PASSWORD_PLACEHOLDER": "Enter your password",
+      "PASSWORD_REQUIRED": "Password is required",
+      "PASSWORD_PATTERN": "Password must contain at least 8 characters, including uppercase, lowercase, numbers and special characters",
+      "CONFIRM_PASSWORD_LABEL": "Confirm Password",
+      "CONFIRM_PASSWORD_PLACEHOLDER": "Re-enter your password",
+      "CONFIRM_PASSWORD_REQUIRED": "Password confirmation is required",
+      "SUBMIT": "Sign Up",
+      "YOU_HAVE_ACCOUNT!": "You Have Account!",
+      "SIGN_IN_NOW": "Sign in Now"
+    }
+  },
+  "USERS": {
+    "TITLE": "Users",
+    "ALL_USERS": "All Users",
+    "CREATE_USER": "Create User",
+    "EDIT_USER": "Edit User",
+    "DELETE_USER": "Delete User",
+    "VIEW_USER": "View User",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "ROLE": "Role",
+    "TENANT_ID": "Tenant ID",
+    "IS_ACTIVE": "Active",
+    "CREATED_AT": "Created At",
+    "UPDATED_AT": "Updated At",
+    "ACTIONS": "Actions",
+    "SEARCH": "Search users...",
+    "NO_USERS_FOUND": "No users found",
+    "LOADING": "Loading...",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "VIEW": "View",
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive",
+    "YES": "Yes",
+    "NO": "No",
+    "CONFIRM_DELETE": "Are you sure you want to delete this user?",
+    "DELETE_CONFIRMATION": "Delete Confirmation",
+    "USER_DELETED_SUCCESS": "User deleted successfully",
+    "USER_CREATED_SUCCESS": "User created successfully",
+    "USER_UPDATED_SUCCESS": "User updated successfully",
+    "ERROR_OCCURRED": "An error occurred",
+    "VALIDATION": {
+      "FIRST_NAME_REQUIRED": "First name is required",
+      "LAST_NAME_REQUIRED": "Last name is required",
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Please enter a valid email",
+      "PASSWORD_REQUIRED": "Password is required",
+      "PASSWORD_MIN_LENGTH": "Password must be at least 8 characters",
+      "PASSWORD_PATTERN": "Password must contain at least 8 characters, including uppercase, lowercase, numbers and special characters",
+      "CONFIRM_PASSWORD_REQUIRED": "Password confirmation is required",
+      "PASSWORD_MISMATCH": "Passwords do not match",
+      "ROLE_REQUIRED": "Role is required",
+      "TENANT_ID_REQUIRED": "Tenant ID is required"
+    }
+  },
+  "INGESTION": {
+    "SENSOR": {
+      "TITLE": "Ingestion Sensors",
+      "ADD_INGESTION": "Add Ingestion Sensor",
+      "ID": "ID",
+      "SENSOR_NAME": "Sensor Name",
+      "BRANCH": "Branch",
+      "DEPARTMENT": "Department",
+      "SECTION": "Section",
+      "STATUS": "Status",
+      "CREATED_BY": "Created By",
+      "CREATED_AT": "Created At",
+      "ACTIONS": "Actions",
+      "NO_RECORDS": "No records found",
+      "RESULTS": "Results",
+      "SENSOR_ID": "Sensor ID",
+      "SCOPE": "Scope",
+      "EMISSION_TYPE": "Emission Type",
+      "VALUE": "Value",
+      "UNIT": "Unit",
+      "SOURCE_TYPE": "Source Type",
+      "TASK_ID": "Task ID",
+      "CONFIRM_DELETE": "Are you sure you want to delete this sensor data?",
+      "DELETE_CONFIRMATION": "Delete Sensor Data",
+      "FILE_NAME": "File Name",
+      "SAVE": "Save File",
+      "UPLOAD_SUCCESS": "File uploaded successfully",
+      "UPLOAD_ERROR": "There was an error uploading the file"
+    },
+    "UPLOAD": {
+      "MEDIA_UPLOAD": "Media Upload",
+      "UPLOAD_EXCEL": "Upload Excel files here",
+      "MAX_FILE_SIZE": "Max 10 MB files are allowed",
+      "UPLOAD_PROGRESS": "Uploading: {{fileName}}",
+      "UPLOAD_COMPLETE": "File uploaded successfully",
+      "CANCEL_UPLOAD": "⨉",
+      "DELETE_FILE": "🗑️",
+      "UPLOAD_BUTTON": "UPLOAD FILES"
+    }
+  },
+  "NAVIGATION": {
+    "SEARCH_PLACEHOLDER": "Search",
+    "DASHBOARD": "Dashboard",
+    "OVERVIEW": "Overview",
+    "SCOPE_1": "Scope 1",
+    "SCOPE_2": "Scope 2",
+    "SCOPE_3": "Scope 3",
+    "COLLECTION": "Collection",
+    "LNG_GAS": "LNG (GAS)",
+    "ELECTRICITY": "Electricity",
+    "REPORTING": "Reporting",
+    "STRATEGY": "Strategy",
+    "USER_MANAGEMENT": "User Management",
+    "USERS": "Users",
+    "ROLES": "User Permissions",
+    "INGESTION": "Ingestion",
+    "LANGUAGE": {
+      "ENGLISH": "English",
+      "ARABIC": "العربية"
+    }
+  },
+  "USER_PERMISSIONS": {
+    "TITLE": "User permissions",
+    "SEARCH_PLACEHOLDER": "search user",
+    "ADD_PERMISSION": "Add permission",
+    "COLUMNS": {
+      "USERS": "Users",
+      "REPORT": "Report",
+      "SENSOR_MANAGEMENT": "Sensor management",
+      "EMISSION_DATA_EXPORT": "Emission data export"
+    },
+    "NO_USERS_FOUND": "No users found",
+    "ROLE_NAME": "Role Name",
+    "IS_ACTIVE": "Status",
+    "UPDATED_AT": "Last Updated",
+    "ACTIONS": "Actions",
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive",
+    "NO_ROLES_FOUND": "No roles found",
+    "CONFIRM_DELETE": "Are you sure you want to delete this role?",
+    "DELETE_ROLE": "Delete Role"
+  },
+  "DASHBOARD": {
+    "TITLE": "Dashboard",
+    "PAUSE_MONITORING": "Pause monitoring",
+    "QUARTER": {
+      "Q1": "Q1",
+      "Q2": "Q2",
+      "Q3": "Q3",
+      "Q4": "Q4"
+    },
+    "SCOPE": {
+      "SCOPE_1": "Scope 1",
+      "SCOPE_2": "Scope 2",
+      "SCOPE_3": "Scope 3",
+      "UNIT": "Ton Co2EQ"
+    },
+    "TOTAL_IMPACT": {
+      "TITLE": "Total impact",
+      "UNIT": "TON CO2 EQ"
+    },
+    "HIGHEST_IMPACT": {
+      "TITLE": "highest impact items",
+      "TYPE_OF_SOURCE": "Type of source",
+      "SOURCE": "source",
+      "CARBON_EMISSIONS": "Carbon emissions",
+      "BENCHMARK": "Benchmark (Global)"
+    },
+    "IMPACT_OVER_TIME": {
+      "TITLE": "Impact over time"
+    },
+    "SOURCES": {
+      "PURCHASED_ENERGY": "Purchased energy",
+      "COMPANY_FACILITIES": "Company facilities",
+      "COMPANY_VEHICLES": "Company vehicles",
+      "TRANSPORTATION": "Transportation",
+      "ELECTRICITY": "Electricity ( average mix)",
+      "NATURAL_GAS": "Natural Gas",
+      "DIESEL": "Diesel",
+      "AIRPLANE": "airplane"
+    },
+    "PERCENTAGES": {
+      "OF_TOTAL": "% of Total"
+    }
+  },
+  "SCOPE_1": {
+    "TITLE": "Scope 1",
+    "QUARTER": {
+      "Q1": "Q1",
+      "Q2": "Q2",
+      "Q3": "Q3",
+      "Q4": "Q4"
+    },
+    "EMISSIONS": {
+      "TITLE": "Emissions",
+      "UNIT": "tn/Co2e"
+    },
+    "CO2E_RATE_GENERATOR": {
+      "TITLE": "CO2e Rate Generator",
+      "UNIT": "tn/MWH"
+    },
+    "EMISSIONS_COMPARISON": {
+      "TITLE": "Actual emissions compared to Target emissions",
+      "CO2E": "Co2e",
+      "TARGET": "Target",
+      "ANNOTATION_CO2": "Co2 {{value}} tn",
+      "ANNOTATION_TARGET": "target {{value}} tn"
+    },
+    "UREA_PRODUCT": {
+      "TITLE": "Urea Product ( Co2e emission )",
+      "STANDARD": "Standard",
+      "ACTUAL": "Actual"
+    },
+    "TABS": {
+      "GRID": "Grid",
+      "GENERATOR": "Generator",
+      "GENERATOR_CONTENT_PLACEHOLDER": "Generator content will be implemented soon"
+    },
+    "GRID": {
+      "ADD_NEW_VALUE": "Add new Value",
+      "FOR_ENERGY": {
+        "TITLE": "For Energy",
+        "GAS_FLOW": "Gas Flow (kg/hr)",
+        "CALORIFIC_VALUE": "Calorific Value (MJ/kg)",
+        "EFFICIENCY": "efficiency",
+        "OPERATING_HOURS": "Operating Hours",
+        "EMISSION_FACTOR": "Emission Factor (kg CO2/kWh)",
+        "ACTION": "Action"
+      },
+      "FOR_CARBON_EMISSION": {
+        "TITLE": "For Carbon Emission",
+        "GAS_FLOW": "Gas Flow",
+        "GAS_CONSUMED": "Gas consumed (MMBtu)",
+        "CO2_EMISSION": "Co2 Emission (Kg)",
+        "START_DATE": "start date",
+        "END_DATE": "End date"
+      },
+      "FORM": {
+        "NOTES": "Notes",
+        "GAS_FLOW_PLACEHOLDER": "Enter Gas Flow (kg/hr)",
+        "CALORIFIC_VALUE_PLACEHOLDER": "Enter calorific value (MJ/kg)",
+        "EFFICIENCY_PLACEHOLDER": "Enter Efficiency",
+        "OPERATING_HOURS_PLACEHOLDER": "Enter operating Hours",
+        "EMISSION_FACTOR_PLACEHOLDER": "Enter Emission Factor",
+        "NOTES_PLACEHOLDER": "Enter notes",
+        "GAS_FLOW_REQUIRED": "Gas Flow is required",
+        "CALORIFIC_VALUE_REQUIRED": "Calorific Value is required",
+        "EFFICIENCY_REQUIRED": "Efficiency is required",
+        "OPERATING_HOURS_REQUIRED": "Operating Hours is required",
+        "EMISSION_FACTOR_REQUIRED": "Emission Factor is required"
+      }
+    },
+    "GENERATOR": {
+      "TITLE": "Generator Emissions (May 2025)",
+      "INPUT": {
+        "TITLE": "Input",
+        "GAS_FLOW": "Gas Flow",
+        "CALORIFIC_VALUE": "Calorific Value",
+        "EFFICIENCY": "Efficiency",
+        "OPERATING_HOURS": "Operating Hours",
+        "EMISSION_FACTOR": "Emission Factor"
+      },
+      "OUTPUT": {
+        "TITLE": "Output",
+        "ENERGY_PER_HOUR": "Energy per hour",
+        "TOTAL_ENERGY": "Total Energy",
+        "TOTAL_EMISSIONS": "Total Emissions"
+      },
+      "UNITS": {
+        "KG_HR": "kg/hr",
+        "MJ_KG": "MJ/kg",
+        "KWH": "KWH",
+        "KG_CO2": "Kg Co2"
+      }
+    }
+  },
+  "MONTHS": {
+    "SHORT": {
+      "JAN": "Jan",
+      "FEB": "Feb",
+      "MAR": "Mar",
+      "APR": "Apr",
+      "MAY": "May",
+      "JUN": "Jun",
+      "JUL": "Jul",
+      "AUG": "Aug",
+      "SEP": "Sep",
+      "OCT": "Oct",
+      "NOV": "Nov",
+      "DEC": "Dec"
+    }
+  },
+  "COMMON": {
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "ACTION": "Action",
+    "ACTIONS": "Actions"
+  }
+}

@@ -1,0 +1,65 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+
+html {
+  @include mat.theme((
+    color: (
+      theme-type: light,
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    typography: Roboto,
+    density: 0,
+  ));
+}
+
+// Base brand palette (kept for general app usage)
+$primary-color: #3067A7;
+$secondary-color-1: #249BCB;
+$secondary-color-2: #40BCA4;
+$text-secondry:#475467;
+$success-color: #27AE60;
+$error-color: #E01507;
+$warning-color:#FFCC00;
+$black:#000000;
+$gray-lightest:#F5F6FA;
+$gray-light:#BDBDBD;
+$gray-lighter:#828282;
+$gray_text:#979797;
+$gray-darker:#5C5E64;
+$gray-darkest:#333333;
+$white:#ffffff;
+$border-color:#E1E1E1;
+
+// Black & White
+$black: #252525;
+$white: #FFFFFF;
+
+// Grey Colors
+$gray-1: #333333;
+$gray-2: #5C5E64;
+$gray-3: #828282;
+$gray-4: #DBDBDB;
+$gray-5: #F5F6FA;
+
+// Background Colors
+$background-color: #F7F8FA;
+$text-color: $gray-1;
+$secondary-text: $gray-2;
+$border-color: $gray-4;
+$hover-color: $gray-5;
+
+// ==============================
+// Aktham sidebar palette (from Figma)
+// Use these for layouts/sidebar to match the design exactly
+// Colors sourced from the provided Figma CSS only
+$sidebar-bg: #33333D;              // Sidebar background
+$sidebar-active-bg: #4E4E58;       // Active/hover item background
+$sidebar-text: #BABABA;            // Inactive text/icon color
+$sidebar-active-text: #FFFFFF;     // Active text color
+$sidebar-icon-active: #66BF85;     // Secondary/green accent
+$sidebar-arrow: #898989;           // Arrow/icon subtle color
+$sidebar-accent-orange: #FFA043;   // Brand orange accent
+$sidebar-dark-text: #202020;       // Dark text on light surfaces inside sidebar

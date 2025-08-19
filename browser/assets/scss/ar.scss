@@ -1,0 +1,245 @@
+/* Arabic RTL Styles for Scope-1 Components */
+
+/* Global RTL Direction */
+body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Scope-1 Dashboard RTL Styles */
+body[dir="rtl"] .scope-1-dashboard {
+
+  .dashboard-header {
+    flex-direction: row-reverse;
+    text-align: right;
+
+    h1 {
+      text-align: right;
+    }
+
+    .quarter-selector {
+      .form-select {
+        text-align: right;
+        direction: rtl;
+      }
+    }
+  }
+
+  .metric-card {
+    .card-body {
+      text-align: right;
+    }
+
+    .metric-title {
+      text-align: right;
+    }
+
+    .metric-value-line {
+      flex-direction: row-reverse;
+      justify-content: flex-start;
+      text-align: right;
+    }
+  }
+}
+
+/* Emissions Comparison Chart RTL */
+body[dir="rtl"] .chart-card {
+
+  .chart-header {
+    .title-row {
+      flex-direction: row-reverse;
+
+      .chart-title {
+        text-align: right;
+        flex-direction: row-reverse;
+
+        .chart-subtitle {
+          margin-right: 0;
+          margin-left: 1rem;
+
+          i {
+            margin-left: 0;
+            margin-right: 0.25rem;
+          }
+        }
+      }
+
+      .chart-legend {
+        text-align: right;
+
+        .legend-item {
+          flex-direction: row-reverse;
+          justify-content: flex-start;
+
+          .legend-color {
+            margin-right: 0;
+            margin-left: 0.5rem;
+          }
+
+          .legend-value {
+            margin-right: 0.5rem;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+
+    .info-row {
+      flex-direction: row-reverse;
+
+      .total-value {
+        text-align: right;
+      }
+    }
+  }
+}
+
+/* Urea Product Chart RTL */
+body[dir="rtl"] .chart-card .chart-header {
+  flex-direction: row-reverse;
+
+  .chart-subtitle {
+    align-items: flex-start;
+    text-align: right;
+
+    .legend-item {
+      flex-direction: row-reverse;
+      margin-right: 0;
+      margin-left: 0.75rem;
+
+      &:last-child {
+        margin-left: 0;
+      }
+
+      .legend-color {
+        margin-right: 0;
+        margin-left: 0.5rem;
+      }
+
+      .legend-value {
+        margin-right: 0.5rem;
+        margin-left: 0;
+      }
+    }
+
+    .adjustment-value {
+      text-align: right;
+
+      .value {
+        margin-right: 0.25rem;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .above-target {
+    align-self: flex-start;
+  }
+}
+
+/* Bootstrap RTL Grid Adjustments */
+body[dir="rtl"] {
+  .row {
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+
+    > [class*='col-'] {
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+    }
+  }
+
+  .d-flex {
+    &.justify-content-between {
+      flex-direction: row-reverse;
+    }
+  }
+
+  .ms-1, .ms-2, .ms-3, .ms-4, .ms-5 {
+    margin-right: var(--bs-gutter-x, 0.75rem) !important;
+    margin-left: 0 !important;
+  }
+
+  .me-1, .me-2, .me-3, .me-4, .me-5 {
+    margin-left: var(--bs-gutter-x, 0.75rem) !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* ApexCharts RTL Adjustments */
+body[dir="rtl"] {
+  .apexcharts-legend {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .apexcharts-tooltip {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .apexcharts-xaxis-label {
+    text-anchor: end !important;
+  }
+
+  .apexcharts-yaxis-label {
+    text-anchor: start !important;
+  }
+
+  .apexcharts-datalabel {
+    text-anchor: end !important;
+  }
+}
+
+/* Card RTL Adjustments */
+body[dir="rtl"] .card {
+  .card-body {
+    text-align: right;
+  }
+
+  .card-title {
+    text-align: right;
+  }
+}
+
+/* Responsive RTL Adjustments */
+@media (max-width: 768px) {
+  body[dir="rtl"] {
+    .scope-1-dashboard {
+      .dashboard-header {
+        align-items: flex-end !important;
+      }
+    }
+
+    .chart-card .chart-header {
+      .title-row {
+        align-items: flex-end !important;
+      }
+
+      .info-row {
+        align-items: flex-end !important;
+      }
+    }
+  }
+}
+
+/* Form Elements RTL */
+body[dir="rtl"] {
+  .form-select,
+  .form-control,
+  input,
+  textarea {
+    text-align: right;
+    direction: rtl;
+  }
+
+  .form-label {
+    text-align: right;
+  }
+}
+
+/* Custom Tooltip RTL */
+body[dir="rtl"] :host ::ng-deep .custom-tooltip {
+  direction: rtl;
+  text-align: right;
+}
